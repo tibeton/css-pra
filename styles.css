@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+body {
+    background-color: rgb(252, 242, 255);
+    color: black;
+
+    /* font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif; */
+
+    font: normal 16px 'Roboto', sans-serif;
+}
+
+a {
+    background: rgba(255, 255, 255, 0.726);
+    color: rgb(129, 88, 0);
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* Наведение на ссылку */
+
+a:hover {
+    background-color: rgb(246, 225, 255);
+}
+
+/* Изменение при наведении на ссылку */
+
+a:active {
+    color: rgb(255, 168, 255);
+}
+
+/* ."название" - указание класса */
+
+.avatar {
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 025);
+}
+
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+
+.info-text {
+    margin-left: 40px;
+}
+
+.info-text h4 {
+    margin-left: 10px;
+}
+
+/* p - все вложенные параграфы */
+.info p {
+    color: gray;
+    margin: 0;
+    font-style: italic;
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    /* letter-spacing: 5px; */
+    /* word-spacing: 42px; */
+}
+
+/* box model */
+.container {
+    /* width: 50%; */
+    position: relative;
+    max-width: 75%;
+    margin: auto;
+    padding-top: 30px;
+}
+.social {
+    background: lightblue;
+    padding: 5px 40px;
+    border: 5px solid lightslategray;
+    margin: 20px;
+}
+
+/* .box-model div {
+    float: left;
+    background: black;
+    height: 200px;
+    width: 25%;
+    box-sizing: border-box;
+} */
+
+.bg-yellow {
+    background: rgb(246, 225, 255);
+}
+.bg-green {
+    background: rgba(163, 131, 177, 0.411);
+}
+.bg-red {
+    background: rgba(140, 122, 148, 0.568);
+}
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+    color: rgb(129, 88, 0);
+    margin-bottom: 20px;
+}
+
+.table {
+    width: 100%;
+    background: rgba(163, 131, 177, 0.719);
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.contact h2 {
+    text-align: center;
+
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.514);
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+    font-size: 16px;
+}
+
+.btn {
+    background: rgba(255, 255, 255, 0.726);
+    color: rgb(198, 148, 255);
+    cursor: pointer;
+    font-family: inherit;
+
+}
+.btn:active {
+    background-color: rgb(255, 168, 255);
+}
+.btn:hover {
+    background-color: rgb(246, 225, 255);
+}
+.imagine {
+    width: 300px;
+    top: 0;
+    left: 0;
+    position: fixed;
+    height: auto;
+
+}
